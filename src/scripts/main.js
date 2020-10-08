@@ -19,3 +19,22 @@ import {createSunflower} from "./seeds/sunflower.js"
 
 const asparagusSeed = createAsparagus()
 console.log(asparagusSeed)
+ 
+import {addPlant} from "./field.js"
+
+import {fieldPlants} from "./field.js"
+
+const sunflower = addPlant("sunflower")
+
+import {usePlants} from "./field.js"
+
+usePlants()
+console.log(fieldPlants)
+
+
+
+
+
+
+
+
