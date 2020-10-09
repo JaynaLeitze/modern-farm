@@ -25,11 +25,12 @@ import {addPlant} from "./field.js"
 import {fieldPlants} from "./field.js"
 
 const sunflower = addPlant("sunflower")
+const asparagus = addPlant("asparagus")
 
 import {usePlants} from "./field.js"
 
-usePlants()
-console.log(fieldPlants)
+const plantedField = usePlants()
+console.log(plantedField)
 
 
 

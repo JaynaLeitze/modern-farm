@@ -6,8 +6,5 @@ export const addPlant = (seedObj) => {
 }
 
 export const usePlants = () => {
-   const plantedField = []
-   for (i=0;i<fieldPlants.length; i++) 
-    
-    return plantedField
-   }
+   return fieldPlants.slice()
+}
