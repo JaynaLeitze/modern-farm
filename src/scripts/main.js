@@ -32,6 +32,11 @@ import {usePlants} from "./field.js"
 const plantedField = usePlants()
 console.log(plantedField)
 
+import {plantSeeds} from "./tractor.js"
+
+plantSeeds()
+console.log(fieldPlants)
+
 
 
 
